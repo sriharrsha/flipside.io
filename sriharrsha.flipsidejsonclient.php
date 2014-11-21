@@ -14,7 +14,7 @@
     chdir(dirname(__DIR__));
     require 'vendor/autoload.php';
     
-    class FlipkartJSONClient extends FlipsideIO
+    class FlipsideJSONClient extends FlipsideIO
      {
 
         use GuzzleHttp\Client;

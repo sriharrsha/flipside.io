@@ -34,10 +34,10 @@
                 //Add the affiliateId and response_type to the base URL to complete it.
                 $this->apiRequestUrl.=$this->apiBaseUrl.'.'.$this->affiliateId.'.'.$this->responseType;
                     if($responseType=='xml'){
-                        return new FlipkartXMLClient();
+                        return new FlipsideXMLClient();
                     }
                     else{
-                        return new FlipkartJSONClient();
+                        return new FlipsideJSONClient();
                     }
             }
 
